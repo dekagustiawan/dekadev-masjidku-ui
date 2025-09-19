@@ -83,7 +83,7 @@ function App() {
           <Suspense fallback={<div>Page is Loading...</div>}>
             <Switch>
               <Route exact path="/">
-                <Redirect to="/simple-map" />
+                <Redirect to="/main-page" />
               </Route>
               <Route
                 path="/:id"
